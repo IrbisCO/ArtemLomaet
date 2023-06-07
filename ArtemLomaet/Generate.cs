@@ -8,11 +8,11 @@ namespace ArtemLomaet
 {
     public class Generate
     {
-        string prefix = "Хаски в хороших руках!";
+        string prefix = "Темка красавчик!";
         public string GenerateRandomEmail()
         {
             string randomString = Guid.NewGuid().ToString("N").Substring(0, 3);
-            string email = $"ArtemMolodec@{randomString}.com";
+            string email = $"ArtemMolodec@{randomString}.IRBIS";
             return email;
         }
 

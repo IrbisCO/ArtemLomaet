@@ -18,6 +18,7 @@ namespace ArtemLomaet
 
             HttpClient client = new HttpClient();
             var response = client.PostAsync("http://users.bugred.ru/tasks/rest/deleteuser?email=" + email, null).Result;
+            Console.WriteLine(response);
         }
     }
 }
